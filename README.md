@@ -53,10 +53,19 @@ output:
  <img src="img_girl.jpg"  width="500" height="600"> 
 ```
 <img src="img_girl.jpg"  width="500" height="600"> 
+
 ### Video tag
 ```html
  <video controls src="movie.mp4" type="video/mp4">
 	Video type not supported by this browser!
  </video>
 ```
- 
+
+### Unordered List tag
+```html
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+```
