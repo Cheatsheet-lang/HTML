@@ -36,17 +36,42 @@ output:
 
 ### inputs
 ```html 
-<input type = "text">
-<input type = "password">
-<input type = "date">
-<input type = "range">
+<input type="text"> defines single line text input field
+<input type="password"> defines password field
+<input type="checkbox"> defines a checkbox
+<input type="color"> used for input fields that should contain a color
+<input type="date"> input field should contain date
+<input type="email"> email type input field
+<input type="file"> defines file select field and browse button
+<input type="image"> upload image
+<input type="month"> select month and year
+<input type="number"> defines numeric input field
+<input type="radio"> defines a radio button
+<input type="range"> slider control
+<input type="reset"> defines a reset button that will reset all form values to their default values
+<input type="search"> define search field
+<input type="submit"> defines button for submitting form data
+<input type="tel"> defines telephone number field
+<input type="time"> select time(without timezone)
+<input type="url"> url address type input field
+<input type="week"> select week and year
 ```
+
 ### Forms
 ```html
-<form action="mail.cgi" method="post">
-	<input type="text" name="firstName" size  = "15"/>
-	<input type="submit" name="sbutton" value="Send">
-</form>
+*Note: name and id can be used for these tags, to access them uniquely
+<form action="" method="" target=""></form> container to create HTML forms
+<input type=""> defines input control, depending on the attribute 'type'
+<label for=""></label> defines a label for a form element, according to 'for' attribute
+<select></select> defines dropdown list in the form
+<option value=""></option> defines an option in the dropdown list
+<textarea rows="" cols=""></textarea> defines a multiple line input field
+<fieldset></fieldset> group related elements in a form
+<legend></legend> defines caption for fieldset tag
+<datalist><option value="">..</datalist> specifies list of pre-defined options for an input tag
+<output></output> used to represent result of a calculation (for using this tag, you will have to use oninput attribute within form tag)
+<optgroup></optgroup> used to group related options
+
 ```
 ### break tag 
 ```html
@@ -99,17 +124,6 @@ output:
 <dd></dd> Describes the term in a description list
 ```
 
-### Form
-```html
-<form action=""></form> create an HTML form
-<label for=""></label> defines a label for many form elements
-<input type=""> Defines an input control
-<textarea name="" id="" cols="30" rows="10"></textarea> Defines a multiline input control (text area)
-<select name="" id=""></select> Defines a drop-down list
-<option value=""></option> Defines an option in a drop-down list
-<fieldset></fieldset> Groups related elements in a form
-<legend></legend> Defines a caption for a <fieldset> element
-```
 
 ### Button
 ```html
@@ -123,7 +137,7 @@ output:
 ### Video tag
 ```html
  <video controls src="movie.mp4" type="video/mp4">
-	Video type not supported by this browser!
+  Video type not supported by this browser!
  </video>
 ```
 
@@ -160,7 +174,7 @@ output:
    controls shows or hides the browser’s player buttons.
 <audio></audio> For embedding audio into a website.
 <source></source> Must be inside <picture>, <video> or <audio> to define the different versions of content.
-	
+  
 ### Audio
 <audio></audio> The HTML <audio> element is used to embed sound content in documents. 
 
