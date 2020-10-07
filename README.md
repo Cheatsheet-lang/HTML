@@ -148,6 +148,19 @@ output:
 <section></section> Defines a section in a document
 ```
 
+### Semantic media Tags
+```html
+<figure></figure> Embeds annotated images, illustrations, photos, code, etc.
+<figcaption></figcaption> For adding a caption/annotation to the <figure>.
+<picture></picture> Responsive image insertion,allows developers to provide different images for different contexts.
+<video poster=" " autoplay loop controls ></video>For embedding videos into a website.
+   poster is the path to an image that’s displayed before the video plays.
+   autoplay will start the video automatically.
+   loop triggers whether the video should repeat or not.
+   controls shows or hides the browser’s player buttons.
+<audio></audio> For embedding audio into a website.
+<source></source> Must be inside <picture>, <video> or <audio> to define the different versions of content.
+
 ### Audio
 <audio></audio> The HTML <audio> element is used to embed sound content in documents. 
 
