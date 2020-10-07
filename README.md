@@ -160,11 +160,20 @@ output:
    controls shows or hides the browser’s player buttons.
 <audio></audio> For embedding audio into a website.
 <source></source> Must be inside <picture>, <video> or <audio> to define the different versions of content.
-
+	
 ### Audio
 <audio></audio> The HTML <audio> element is used to embed sound content in documents. 
 
 ### Scripting
 <canvas></canvas> Used with either the canvas scripting API or the WebGL API to draw graphics and animations.
 <noscript></noscript> Defines a section of HTML to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.
-
+```
+### Emojis
+```html
+<p style="font-size:48px">
+ &#128512; &#128516; &#128525; &#128151;
+</p>
+```
+Output:<p style="font-size:48px">
+ &#128512; &#128516; &#128525; &#128151; </p>
+> For Emoji Unicode refer _[this](https://www.w3schools.com/charsets/ref_emoji.asp)_.
