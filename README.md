@@ -147,3 +147,11 @@ output:
 <nav></nav> Defines navigation links
 <section></section> Defines a section in a document
 ```
+
+### Audio
+<audio></audio> The HTML <audio> element is used to embed sound content in documents. 
+
+### Scripting
+<canvas></canvas> Used with either the canvas scripting API or the WebGL API to draw graphics and animations.
+<noscript></noscript> Defines a section of HTML to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.
+
