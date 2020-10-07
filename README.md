@@ -54,9 +54,16 @@ output:
 ```
 ### Image tag 
 ```html
- <img src="img_girl.jpg"  width="500" height="600"> 
-```
-<img src="img_girl.jpg"  width="500" height="600"> 
+ You can add image if it is stored in your working space like this:
+ <img src="img_girl.jpg"  width="400" height="400">
+ Or you can add image directly from your browser like this:
+ <img src="https://cdn.mos.cms.futurecdn.net/hFm4iWXhbw4c4rdcMH8tUD.jpg"  width="400" height="400">
+
+``` 
+ Output of 2nd method:
+ 
+ <img src="https://cdn.mos.cms.futurecdn.net/hFm4iWXhbw4c4rdcMH8tUD.jpg"  width="400" height="400">
+
  
 
 ### Head Elements
