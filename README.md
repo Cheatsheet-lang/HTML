@@ -61,18 +61,7 @@ output:
 
 ### Head Elements
 ```html 
- <head></head> Container for metadata
-<title></title> The title of your project
-<link rel="stylesheet" href=""> link to external style sheets
-<meta> specify the character set, page description, keywords, author of the document, and viewport settings
-<style></style> used to define style information for a single document
-<base href="">  specifies the base URL and/or target for all relative URLs in a page
-<script></script> define client-side JavaScripts
-```
-
-### Head Elements
-```html 
- <head></head> Container for metadata
+<head></head> Container for metadata
 <title></title> The title of your project
 <link rel="stylesheet" href=""> link to external style sheets
 <meta> specify the character set, page description, keywords, author of the document, and viewport settings
@@ -98,16 +87,6 @@ output:
 <tr></tr> define a table row
 <th></th> define a table heading
 <td></td> define a table data
-```
-
-### Lists
-```html
-<ul></ul> Defines an unordered list
-<ol></ol> Defines an ordered list
-<li></li> Defines a list item
-<dl></dl> Defines a description list
-<dt></dt> Defines a term in a description list
-<dd></dd> Describes the term in a description list
 ```
 
 ### Lists
@@ -155,4 +134,16 @@ output:
   <li>Item 2</li>
   <li>Item 3</li>
 </ul>
+```
+
+### HTML Semantics
+```html
+<header></header> Specifies a header for a document or section
+<main></main> Specifies the main content of a document
+<footer></footer> Defines a footer for a document or section
+<article></article> Defines independent, self-contained content
+<aside></aside> Defines content aside from the page content
+<figure></figure> Specifies self-contained content
+<nav></nav> Defines navigation links
+<section></section> Defines a section in a document
 ```
