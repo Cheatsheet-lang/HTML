@@ -41,6 +41,13 @@ output:
 <input type = "date">
 <input type = "range">
 ```
+### Forms
+```html
+<form action="mail.cgi" method="post">
+	<input type="text" name="firstName" size  = "15"/>
+	<input type="submit" name="sbutton" value="Send">
+</form>
+```
 ### break tag 
 ```html
 <br> 
@@ -133,4 +140,19 @@ output:
 ### SVG
 ```html
 <svg></svg> container for SVG graphics
+
+### Video tag
+```html
+ <video controls src="movie.mp4" type="video/mp4">
+	Video type not supported by this browser!
+ </video>
+```
+
+### Unordered List tag
+```html
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
 ```
