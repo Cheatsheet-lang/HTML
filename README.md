@@ -46,4 +46,12 @@ output:
  <img src="img_girl.jpg"  width="500" height="600"> 
 ```
 <img src="img_girl.jpg"  width="500" height="600"> 
- 
+
+### Unordered List tag
+```html
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+```
