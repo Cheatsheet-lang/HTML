@@ -30,6 +30,7 @@ Output
 <b> bold </b>
 <strong>strong</strong>
 <small>small</small>
+<strike> striked text </strike>
 ```
 
 output:
@@ -38,6 +39,7 @@ output:
 <b> bold </b>
 <strong>strong</strong>
 <small>small</small>
+<strike> striked text </strike>
 
 ## Input
 
