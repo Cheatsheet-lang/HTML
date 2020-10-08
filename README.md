@@ -26,6 +26,7 @@ output :
 <b> bold </b>
 <strong>strong</strong>
 <small>small</small>
+<strike> striked text </strike>
 ```
 output: 
 <em> emphaize </em>
@@ -33,6 +34,7 @@ output:
 <b> bold </b>
 <strong>strong</strong>
 <small>small</small>
+<strike> striked text </strike>
 
 ### inputs
 ```html 
