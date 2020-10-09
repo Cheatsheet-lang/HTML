@@ -248,9 +248,7 @@ Defines a section in a document
 ```
 
 Output:
-
-```html
 <p style="font-size:48px">&#128512; &#128516; &#128525; &#128151;</p>
-```
+
 
 > For Emoji Unicode refer _[this](https://www.w3schools.com/charsets/ref_emoji.asp)_.
