@@ -13,15 +13,6 @@ HTML Cheatsheet
 <h6>HEADING6</h6>
 ```
 
-Output
-
-<h1> HEADING1 </h1>
-<h2> HEADING2 </h2>
-<h3> HEADING3 </h3>
-<h4> HEADING4 </h4>
-<h5> HEADING5 </h5>
-<h6> HEADING6 </h6>
-
 ## Font Style
 
 ```html
@@ -33,20 +24,12 @@ Output
 <strike> striked text </strike>
 ```
 
-output:
-<em> emphaize </em>
-<i> italics </i>
-<b> bold </b>
-<strong>strong</strong>
-<small>small</small>
-<strike> striked text </strike>
-
 ## Input
 
 ```html
-<input type="text" /> defines single line text input field
-<input type="password" /> defines password field
-<input type="checkbox" /> defines a checkbox <input type="color" /> used for
+<input type="text" /> Defines single line text input field
+<input type="password" /> Defines password field
+<input type="checkbox" /> Defines a checkbox <input type="color" /> used for
 input fields that should contain a color <input type="date" /> input field
 should contain date <input type="email" /> email type input field
 <input type="file" /> defines file select field and browse button
@@ -133,21 +116,23 @@ define client-side JavaScripts
 ```html
 <a href="url">link text</a> Link to url
 <a href="#yourSection">link text</a> Link to your section
-<a href="url" target="_blanl">link text</a> Opens your link in another tab in a
-browser
+<a href="url" target="_blanl">link text</a> Opens your link in another tab in a browser
 ```
 
 ## Table
 
 ```html
 <table></table>
-define a table
+Define a table
+
 <tr></tr>
-define a table row
+Define a table row
+
 <th></th>
-define a table heading
+Define a table heading
+
 <td></td>
-define a table data
+Define a table data
 ```
 
 ## List
@@ -155,14 +140,19 @@ define a table data
 ```html
 <ul></ul>
 Defines an unordered list
+
 <ol></ol>
 Defines an ordered list
+
 <li></li>
 Defines a list item
+
 <dl></dl>
 Defines a description list
+
 <dt></dt>
 Defines a term in a description list
+
 <dd></dd>
 Describes the term in a description list
 ```
@@ -176,7 +166,7 @@ Describes the term in a description list
 ## SVG
 
 ````html
-<svg></svg> container for SVG graphics ### Video tag ```html
+<svg></svg> Container for SVG graphics ### Video tag ```html
 <video controls src="movie.mp4" type="video/mp4">
   Video type not supported by this browser!
 </video>
@@ -192,23 +182,41 @@ Describes the term in a description list
 </ul>
 ```
 
+
+## Ordered List
+
+```html
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+```
+
 ## HTML Semantics
 
 ```html
 <header></header>
 Specifies a header for a document or section
+
 <main></main>
 Specifies the main content of a document
+
 <footer></footer>
 Defines a footer for a document or section
+
 <article></article>
 Defines independent, self-contained content
+
 <aside></aside>
 Defines content aside from the page content
+
 <figure></figure>
 Specifies self-contained content
+
 <nav></nav>
 Defines navigation links
+
 <section></section>
 Defines a section in a document
 ```
@@ -219,11 +227,13 @@ Defines a section in a document
 <figure></figure> Embeds annotated images, illustrations, photos, code, etc.
 <figcaption></figcaption> For adding a caption/annotation to the <figure>.
 <picture></picture> Responsive image insertion,allows developers to provide different images for different contexts.
+
 <video poster=" " autoplay loop controls ></video>For embedding videos into a website.
    poster is the path to an image that’s displayed before the video plays.
    autoplay will start the video automatically.
    loop triggers whether the video should repeat or not.
    controls shows or hides the browser’s player buttons.
+
 <audio></audio> For embedding audio into a website.
 <source></source> Must be inside <picture>, <video> or <audio> to define the different versions of content.
 ```
